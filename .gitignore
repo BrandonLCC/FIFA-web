@@ -1,0 +1,40 @@
+# Entorno virtual
+myenv/
+venv/
+.env
+*.env
+*.venv
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+*.sqlite3
+
+# Django
+db.sqlite3
+media/
+
+# Logs
+*.log
+
+# MacOS
+.DS_Store
+
+# IDE
+.idea/
+.vscode/
+
+# Node
+node_modules/
+dist/
+build/
+package-lock.json
+
+# Distribución Python
+*.egg-info/
+coverage/
+*.cover
+*.bak
