@@ -68,8 +68,15 @@ git restore --staged archivo.py
 
 - Contendio referido solamente a ramas, a continuacion de esta seccion, se hablara de uniones o entre otras cosas. 
 
+### Creación de rama
 
 ```bash
+
+# Al hacer el git add y git commit -m, el siguiente paso sera enfocado en la creación de ramas.
+
+# Verifica las ramas disponibles o si se ha creado la rama.
+
+git branch
 
 # Al crear una rama, hay que hacer add . en algunos casos
 
@@ -92,6 +99,21 @@ git branch feature/sistema-pago-online
 
 
 ```
+### Moverte de una rama a otra
+
+```bash
+
+# Visualizamos las ramas disponibles 
+
+git branch
+
+# Selecciónamos la rama que queremos entrar
+
+git checkout <Nombre de la rama creada>
+
+```
+
+
 --- 
 
 ## Mis Errores
