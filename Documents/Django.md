@@ -173,6 +173,7 @@ tailwind.config.js
 
 # Configuración de Tailwind CSS en el Proyecto Django
 
+> No seguir estos pasos si ya estan creado los archivos.
 
 ## 9. Configurar tailwind.config.js
 
@@ -230,7 +231,7 @@ Agregar el siguiente contenido:
 
 ------------------------------------------------------------
 
-## 12. Compilar Tailwind
+## 12. Compilar Tailwind 
 
 Ubicarse en la carpeta donde se encuentra el archivo `manage.py` y ejecutar:
 
