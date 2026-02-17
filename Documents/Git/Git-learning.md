@@ -97,6 +97,24 @@ git branch feature/sistema-pago-online
 | `test/`     | Agregar o mejorar tests                  | `test/modelos-usuario`          |
 | `chore/`    | Tareas técnicas menores                  | `chore/actualizar-dependencias` |
 
+# Opcion 2: Esta opcion nos cambia el punto de vista de como funciona git en otras ocaciónes.
+
+git checkout -b nombre_rama
+
+# Crea la rama y automáticamente te cambia a ella.
+
+#Ejemplo:
+
+git checkout -b feature-login
+
+
+# Es equivalente a hacer:
+
+git branch feature-login
+git checkout feature-login
+
+
+# Pero en un solo comando.
 
 ```
 ### Moverte de una rama a otra
@@ -111,8 +129,28 @@ git branch
 
 git checkout <Nombre de la rama creada>
 
+# O tambien
+
+
+
 ```
 
+---
+
+## Realizar marche de ramas (union de ramas)
+
+En esta sección habran dos escenarios
+
+1. Una union correcta de ramas
+
+2. Cuando existe un conficto de ramas 
+
+
+```bash
+
+git 
+
+```
 
 --- 
 
@@ -151,3 +189,10 @@ Regla profesional:
 
 > Un proyecto = una carpeta raíz = un solo .git
 
+# Referencias 
+
+Como inicar git
+https://www.youtube.com/watch?v=QYIT6k4JOfM
+
+fusion merge de ramas
+https://www.youtube.com/watch?v=Kq3AbJayY6Y
